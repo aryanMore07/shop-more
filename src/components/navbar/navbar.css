@@ -1,0 +1,94 @@
+
+/* For Mobile view styling */
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.components {
+  height: 36px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 10rem;
+}
+
+/* Favorite and cart icons style  */
+
+  .mui-icons {
+    height: 1.5rem;
+  }
+
+input {
+  width: 18rem;
+}
+
+/* For Laptop and above */
+
+@media screen and (min-width: 768px) {
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+  }
+  
+  /* Favorite and cart icons component style  */
+
+  .components {
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 10rem;
+    margin-right: 2rem;
+  }
+
+  /* Input style  */
+
+  .input-box{
+    width: 27ch;
+  }
+
+  /* Favorite and cart icons style  */
+
+  .mui-icons {
+    height: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    padding: 15px;
+  }
+  .input-box{
+    width: 47ch;
+  }
+  
+  
+  /* Favorite and cart icons component style  */
+
+  .components {
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 10rem;
+    margin-right: 2rem;
+  }
+
+  
+  /* Favorite and cart icons style  */
+
+  .mui-icons {
+    height: 1.5rem;
+  }
+}
